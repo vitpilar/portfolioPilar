@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: #100f0e;
+  scroll-padding-top: 100px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.navigace {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+section {
+  width: 100%;
+}
+
+ul {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 132px;
+  gap: 84px;
+  list-style: none;
+
+  position: relative;
+  width: 100%;
+  height: 134px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #0f0f0d;
+}
+ul li:first-child a {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+ul li:first-child a span {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+
+  text-align: center;
+
+  color: #f8333c;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li:nth-child(2) a,
+ul li:nth-child(3) a,
+ul li:nth-child(4) a,
+ul li:nth-child(5) a {
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+ul li:nth-child(6) a {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+
+  background: #f8333c;
+
+  border-radius: 66px;
+  padding: 10px;
+}
+.prvniflex {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.firstfotka {
+  width: 675px;
+  height: 890px;
+}
+
+
+.pismoFirst {
+  margin-top: 100px;
+
+  width: 352px;
+  height: 154px;
+  color: #ffffff;
+}
+.prvni {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.druhy {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+}
+.treti {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.about {
+  margin-top: 100px;
+  display: flex;
+
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+}
+.secondpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 532px;
+  height: 400px;
+}
+.about h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+
+  color: #f8333c;
+}
+.about h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.about h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+
+.secondfotka {
+  width: 461px;
+  height: 714px;
+}
+.nadpis3 {
+  display: flex;
+  justify-content: center;
+  width: 545.76px;
+  height: 144px;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 144px;
+
+  color: #f8333c;
+}
+.Myservice {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#Service {
+  padding-top: 30px;
+}
+.block {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300.76px;
+  height: 437px;
+  border: 2px solid #181817;
+  background: #181817;
+  border-radius: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+}
+.Myservice h2 {
+  background-color: #181817;
+  width: 189.31px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.Myservice img {
+  background-color: #181817;
+  width: 52.36px;
+  height: 53px;
+}
+.Myservice p {
+  background-color: #181817;
+  width: 228.58px;
+  height: 273px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.hireme {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+.lastpage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+}
+.lastpage h1 {
+  width: 877.05px;
+  height: 72px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 72px;
+}
+.lastpage h2 {
+  margin-bottom: 100px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 54px;
+  width: 200px;
+  height: 50px;
+  background: #f8333c;
+  border-radius: 35px;
+
+}
+.repage{
+  display: none;
+}
+@media (max-width: 900px) {
+  ul {
+    
+  padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    
+   }
+  .navigace {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+    gap:30px;
+  }
+  ul li:first-child a {
+    visibility:hidden;
+  }
+ 
+  
+  ul li:nth-child(2) a,
+  ul li:nth-child(3) a,
+  ul li:nth-child(4) a,
+  ul li:nth-child(5) a {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .prvniflex{
+    padding-top: 200px;
+  }
+  ul li:nth-child(6) a {
+    display:none;
+
+  }
+  .firstfotka{
+ height: 500px;
+ width: 400px;
+    
+  }
+  .pismoFirst {
+    margin-top: 100px;
+  
+    width: 352px;
+    height: 154px;
+    color: #ffffff;
+  }
+  .prvni {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .druhy {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 96px;
+  }
+  .treti {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+  }
+  
+  .about {
+    
+   
+    display: flex;
+  
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+  }
+  .secondpage {
+    
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 532px;
+    height: 400px;
+  }
+  .about h1 {
+    
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 100px;
+  
+    color: #f8333c;
+  }
+  .about h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .about h3 {
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  
+    color: #ffffff;
+  }
+  
+  .secondfotka {
+    width: 461px;
+    height: 714px;
+  }
+  .nadpis3 {
+    display: flex;
+    justify-content: center;
+    width: 545.76px;
+    height: 112px;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 144px;
+  padding-bottom: 20px;
+    color: #f8333c;
+  }
+  .padding2{
+    padding-top: 200px;
+  }
+  .Myservice {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .block {
+    display: flex;
+    align-items: center;
+  
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250.76px;
+    height: 350px;
+    border: 2px solid #181817;
+    background: #181817;
+    border-radius: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+  }
+  .Myservice h2 {
+    background-color: #181817;
+    width: 189.31px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  .Myservice img {
+    padding-top: 20px;
+    background-color: #181817;
+    width: 52.36px;
+    height: 53px;
+  }
+  .Myservice p {
+    background-color: #181817;
+    width: 228.58px;
+    height: 273px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  .hireme {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .lastpage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+  }
+  .lastpage h1 {
+    width: 877.05px;
+    height: 72px;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 72px;
+  }
+  .lastpage h2 {
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 54px;
+    width: 18 0px;
+    height: 50px;
+    background: #f8333c;
+    border-radius: 35px;
+  }
+}
+@media (max-width: 500px){
+  .navigace {
+    width: 375px;
+    height: 10px;
+    position: fixed;
+    width: 100%;
+    padding-left: 75px;
+ 
+  }
+  
+  
+  ul {
+    
+    box-sizing: border-box;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 50px;
+    gap: 30px;
+    list-style: none;
+  
+    
+    height: 10px;
+   
+   
+  
+   
+  }
+  ul li:first-child a {
+   display: none;
+  }
+  ul li:nth-child(2) a,
+  ul li:nth-child(3) a,
+  ul li:nth-child(4) a,
+  ul li:nth-child(5) a {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    
+  }
+  
+  ul li:nth-child(6) a {
+   display: none;
+  }
+    .prvniflex{
+      padding-top: 20px;
+    }
+    ul li:nth-child(6) a {
+      display:none;
+  
+    }
+    .firstfotka{
+   height: 200px;
+   width: 150px;
+   margin-top: 100px;
+      
+    }
+    .pismoFirst {
+      
+    padding: 20px;
+      width: 352px;
+      height: 154px;
+      color: #ffffff;
+    }
+    .prvni {
+      font-weight:300;
+      font-size: 14px;
+      line-height: 36px;
+    }
+    .druhy {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 40px;
+    }
+    .treti {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+    }
+    
+    .about {
+      
+     
+      display: flex;
+    
+      justify-content: space-around;
+      width: 350px;
+      height: 625px;
+    }
+    .secondpage {
+      
+      padding-left: 50px;
+      
+      padding-left: 0px;
+      justify-content: space-between;
+      width: 532px;
+      height: 100px;
+    }
+    .about h1 {
+      
+      font-weight: 700px;
+      font-size: 40px;
+      line-height: 50px;
+    
+      color: #f8333c;
+    }
+    .about h2 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 38px;
+      color: #ffffff;
+    }
+    .about h3 {
+      
+      font-weight: 200;
+      font-size: 12px;
+      line-height: 10px;
+    
+      color: #ffffff;
+    }
+    
+    .secondfotka {
+      height: 200px;
+      width: 150px;
+    }
+    .nadpis3 {
+     margin-top: -500px;
+      padding-top: 10px;
+      width: 545.76px;
+      height: 112px;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 144px;
+      color: #f8333c;
+    }
+    
+    .block {
+      
+      display: flex;
+      flex-direction: column;
+      
+      width: 276px;
+      height: 350px;
+      border: 2px solid #181817;
+      background: #181817;
+      border-radius: 32px;
+      font-family: "Poppins";
+      font-style: normal;
+    }
+    .Myservice h2 {
+      background-color: #181817;
+      width: 189.31px;
+      height: 36px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 36px;
+      color: #ffffff;
+    }
+    .Myservice img {
+      padding-top: 20px;
+      background-color: #181817;
+      width: 52.36px;
+      height: 53px;
+    }
+    .Myservice p {
+      background-color: #181817;
+      width: 228.58px;
+      height: 273px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 21px;
+      text-align: center;
+    
+      color: #ffffff;
+    }
+    .hireme {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 100px;
+    }
+    .lastpage {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      align-items: center;
+    }
+    .lastpage h1 {
+      width: 877.05px;
+      height: 72px;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 72px;
+    }
+    .lastpage h2 {
+      margin-bottom: 100px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 34px;
+      width: 90px;
+      height: 30px;
+      background: #f8333c;
+      border-radius: 35px;
+    }
+    .Myservice{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 1200px
+      ;
+    }
+    
+
+}
